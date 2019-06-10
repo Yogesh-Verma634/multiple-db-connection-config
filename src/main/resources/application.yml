@@ -1,0 +1,16 @@
+spring:
+  db2:
+    datasource:
+      platform: h2
+      driver-class-name: org.h2.Driver
+      url: jdbc:h2:mem:db2;MODE=DB2
+      username: sa
+      password:
+
+  pgsql:
+    datasource:
+      platform: h2
+      driver-class-name: org.h2.Driver
+      url: jdbc:h2:mem:pgsql;MODE=PGSQL
+      username: sa
+      password:
